@@ -1,0 +1,9 @@
+.container_form {
+  background-image: url(https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center fixed;
+  background-size: cover;
+}
+.Farm_inp {
+  border: 1px solid gray;
+  border-radius: 6px;
+}

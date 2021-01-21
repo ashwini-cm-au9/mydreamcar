@@ -1,0 +1,40 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.carSection {
+  padding-top: 0px;
+  margin-top: 0px;
+  background: url(https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center fixed;
+  background-size: cover;
+}
+.navbar {
+  float: left;
+  width: 30%;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  background: url(https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center fixed;
+  background-size: cover;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imageBck {
+  background: url(https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+    no-repeat center fixed;
+  background-size: cover;
+}
